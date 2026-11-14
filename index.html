@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/var.css">
+    <script src="assets/script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="w-full min-h-screen">
+
+
+    <div class="page-side items-center justify-center min-h-screen">
+        <a href="https://t.me/syr_mem" class="page-side-link">
+            <img class="md:w-[60%] m-3 items-center justify-center" src="assets/img/holuba.jpg" id="leftflyanim">
+        </a>
+
+    </div>
+    <div class="bg-[#8eb1f3]/82 min-h-screen border-r-4 border-l-4 border-[#2554bb] border-dashed"
+        id="block">
+        <div class="w-full min-h-[280px] mb-4">
+            <header class="w-full min-h-[280px] flex flex-col items-center justify-end relative">
+                <div class="header relative flex-1 min-h-[200px] w-full">
+                    <div class="splash-text" id="splash-text">
+                    </div>
+                </div>
+                <nav class="flex w-full flex-nowrap">
+                    <a class="flex min-w-0 flex-1 items-center justify-center whitespace-nowrap bg-blue-500 px-2 py-3 text-center text-purple-100 transition hover:bg-blue-100 hover:text-black sm:px-4"
+                        href="index.html" aria-current="page">головна</a>
+                    <a class="flex min-w-0 flex-1 items-center justify-center whitespace-nowrap bg-blue-400 px-2 py-3 text-center text-purple-100 transition hover:bg-blue-100 hover:text-black sm:px-4"
+                        href="about.html">про мене</a>
+                    <a class="flex min-w-0 flex-1 items-center justify-center whitespace-nowrap bg-blue-400 px-2 py-3 text-center text-purple-100 transition hover:bg-blue-100 hover:text-black sm:px-4"
+                        href="portfolio.html">портфоліо</a>
+                </nav>
+            </header>
+        </div>
+
+        <main class="flex-1">
+
+            <div class="waterfall-grid p-4">
+
+                <div class="grid-span-1 bg-white p-6 border-[#2554bb] border-2 border-dashed rounded">
+                    <h3 class="font-bold text-lg mb-2">Блок 1</h3>
+                    <p class="text-sm text-gray-700">Звичайний блок стандартного розміру.</p>
+                </div>
+
+                <div class="grid-span-2x1 bg-white p-6 border-[#2554bb] border-2 border-dashed rounded">
+                    <h3 class="font-bold text-lg mb-2">Блок 2 (2x ширина)</h3>
+                    <p class="text-sm text-gray-700">Широкий блок для баннерів або важливої інформації.</p>
+                </div>
+
+                <div class="grid-span-1 bg-white p-6 border-[#2554bb] border-2 border-dashed rounded">
+                    <h3 class="font-bold text-lg mb-2">Блок 3</h3>
+                    <p class="text-sm text-gray-700">Ще один стандартний блок.</p>
+                </div>
+
+                <div
+                    class="grid-span-1x2 bg-white p-6 border-[#2554bb] border-2 border-dashed rounded flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-lg mb-2">Блок 4 (2x висота)</h3>
+                        <p class="text-sm text-gray-700">Високий блок для довгого контенту.</p>
+                    </div>
+                    <button class="px-4 py-2 bg-blue-500 text-white font-bold rounded mt-4">Дія</button>
+                </div>
+
+                <div
+                    class="grid-span-1x2 bg-white p-6 border-[#2554bb] border-2 border-dashed rounded flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-lg mb-3 p-4">Галерея</h3>
+                    </div>
+
+                    <div class="groid-cols-2 gap-3 mb-4">
+
+                        <img src="https://picsum.photos/300/200?random=1" alt="Фото 1"
+                            class="w-full h16 object-cover border-[#2554bb] border-2 border-dashed rounded">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="links p-4">
+                <a href="https://x.com/kork0za"
+                    class="playpen-sans-thin hover:bg-blue-100 bg-blue-400 text-blue-100 hover:text-black transition"><i
+                    class="fa-brands fa-x-twitter" aria-hidden="true"></i><span>твітер</span></a>
+
+                <a href="https://www.instagram.com/kork0za/"
+                    class="playpen-sans-thin hover:bg-blue-100 bg-blue-400 text-blue-100 hover:text-black transition"><i
+                    class="fa-brands fa-instagram" aria-hidden="true"></i><span>інста</span></a>
+
+                <a href="youtube" class="playpen-sans-thin hover:bg-blue-100 bg-blue-400 text-blue-100 hover:text-black transition"><i
+                        class="fa-brands fa-youtube" aria-hidden="true"></i><span>youtube</span></a>
+
+                <a href="twitch" class="playpen-sans-thin hover:bg-blue-100 bg-blue-400 text-blue-100 hover:text-black transition"><i
+                        class="fa-brands fa-twitch" aria-hidden="true"></i><span>twitch</span></a>
+            </div>
+
+        </main>
+
+
+
+        <footer
+            class="mt-8 bg-blue-400 w-full min-h-[150px] text-blue-100 flex-col flex justify-center item items-center">
+            все налеєжить мені 2026 с
+        </footer>
+    </div>
+
+    <div class="page-side items-center justify-center min-h-screen">
+        <a href="https://t.me/syr_mem" class="page-side-link">
+            <img class="md:w-[60%] m-3" src="assets/img/mem14.png" id="rightflyanim">
+        </a>
+    </div>
+
+
+    <script>
+        const splashTexts = [
+            "Ласкаво просимо на мій сайт!",
+            "Досліджуйте моє портфоліо!",
+            "Знайомтесь зі мною!",
+            "Відкрийте для себе мої проекти!",
+            "Приємного перегляду!"
+        ];
+
+        const splashTextElement = document.getElementById("splash-text");
+        const randomIndex = Math.floor(Math.random() * splashTexts.length);
+        splashTextElement.textContent = splashTexts[randomIndex];
+
+
+    </script>
+</body>
+
+</html>
